@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "05501800"
+  },
+  "Data Bridge Blog/posts/post-with-code/index.qmd": {
+    "index.html": "b7bdcd87"
+  },
+  "Data Bridge Blog/posts/welcome/index.qmd": {
+    "index.html": "046c06c6"
+  },
+  "Data Bridge Blog/index.qmd": {
+    "index.html": "2b4536b6"
+  },
+  "Data Bridge Blog/about.qmd": {
+    "about.html": "d42ca10b"
+  },
+  "about.qmd": {
+    "about.html": "8c0b62db"
+  },
+  "blog/posts/post-with-code/index.qmd": {
+    "index.html": "1c8a6c44"
+  },
+  "blog/posts/welcome/index.qmd": {
+    "index.html": "077ab1b6"
+  },
+  "blog/index.qmd": {
+    "index.html": "8c4d2e34"
+  },
+  "blog/about.qmd": {
+    "about.html": "45cca547"
+  }
+}
