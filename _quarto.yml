@@ -4,10 +4,12 @@ project:
 
 website:
   title: "Data Bridge"
+  favicon: db2.png
   navbar:
     left:
       - href: blog/index.qmd
         text: Blog
+        icon: db2.png
 
 format:
   html:
