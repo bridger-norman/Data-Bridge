@@ -28,5 +28,14 @@
   },
   "blog/about.qmd": {
     "about.html": "45cca547"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "6ad3b1e7"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "c810850d"
+  },
+  "blog.qmd": {
+    "blog.html": "0d6bc17d"
   }
 }

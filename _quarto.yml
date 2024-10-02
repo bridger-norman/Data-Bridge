@@ -10,13 +10,16 @@ website:
     # logo: images/db2.svg
     left:
       - text: Blog
-        href: blog/index.qmd
+        href: blog.qmd
         
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/bridgernorman/
       - icon: github
         href: https://github.com/bridger-norman
+    
+    # page-footer: "Copyright 2024, Bridger Norman" 
+    #   background: light
         
 
 format:

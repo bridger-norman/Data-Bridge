@@ -1,5 +1,5 @@
 ---
-title: "Data Bridge"
+title: "Data Bridge - A Blog about Bridger and Data"
 listing:
   contents: posts
   sort: "date desc"
