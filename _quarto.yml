@@ -4,12 +4,20 @@ project:
 
 website:
   title: "Data Bridge"
-  favicon: db2.png
+  favicon: images/db2.svg
   navbar:
+    # title: False
+    # logo: images/db2.svg
     left:
-      - href: blog/index.qmd
-        text: Blog
-        icon: db2.png
+      - text: Blog
+        href: blog/index.qmd
+        
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/bridgernorman/
+      - icon: github
+        href: https://github.com/bridger-norman
+        
 
 format:
   html:

@@ -1,6 +1,6 @@
 ---
 title: "Bridger Norman"
-image: profile.jpg
+image: images/profile.jpg
 about:
   template: jolla
   links:
