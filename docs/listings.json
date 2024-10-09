@@ -9,8 +9,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/Polars and JSON/index.html",
+      "/posts/R Package Development/index.html",
+      "/posts/Determinism/index.html"
     ]
   }
 ]

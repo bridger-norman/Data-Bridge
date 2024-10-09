@@ -1,8 +1,8 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-09-22"
-categories: [news]
+title: "JSON Manipulation in Polars"
+author: "Bridger Norman"
+date: "2024-10-010"
+categories: [Python, Polars, JSON ]
 ---
 
 This is the first post in a Quarto blog. Welcome!

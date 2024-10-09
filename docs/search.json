@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Data Bridge - A Blog about Bridger and Data",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 25, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 22, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "JSON Manipulation in Polars\n\n\n\n\n\n\nPython\n\n\nPolars\n\n\nJSON\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nBridger Norman\n\n\n\n\n\n\n\n\n\n\n\n\nR Package Development\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\nOct 9, 2024\n\n\nBridger Norman\n\n\n\n\n\n\n\n\n\n\n\n\nDeterminism and Data Science\n\n\n\n\n\n\nPhilosophy\n\n\n\n\n\n\n\n\n\nOct 8, 2024\n\n\nBridger Norman\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -38,6 +38,27 @@
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/Determinism/index.html",
+    "href": "posts/Determinism/index.html",
+    "title": "Determinism and Data Science",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/R Package Development/index.html",
+    "href": "posts/R Package Development/index.html",
+    "title": "R Package Development",
+    "section": "",
+    "text": "This is a post with executable code.\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "posts/Polars and JSON/index.html",
+    "href": "posts/Polars and JSON/index.html",
+    "title": "JSON Manipulation in Polars",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }

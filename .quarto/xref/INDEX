@@ -37,5 +37,14 @@
   },
   "blog.qmd": {
     "blog.html": "0d6bc17d"
+  },
+  "posts/Determinism/index.qmd": {
+    "index.html": "1a6cfa33"
+  },
+  "posts/R Package Development/index.qmd": {
+    "index.html": "2c36d509"
+  },
+  "posts/Polars and JSON/index.qmd": {
+    "index.html": "ee0a97c5"
   }
 }
