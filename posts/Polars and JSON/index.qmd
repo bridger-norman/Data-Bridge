@@ -4,9 +4,7 @@ author: "Bridger Norman"
 date: "2024-10-010"
 categories: [Python, Polars, JSON ]
 ---
-
-This is the first post in a Quarto blog. Welcome!
-
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+<!-- 
+```{python}
+import polars as pl
+``` -->
