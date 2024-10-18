@@ -3,10 +3,11 @@ title: "Determinism and Data Science"
 author: "Bridger Norman"
 date: "2024-10-08"
 categories: [Philosophy ]
+image: 'circle.jpeg'
 ---
 
 This is the first post in a Quarto blog. Welcome!
 
-![](thumbnail.jpg)
+<!-- ![](circle.jpeg) -->
 
 Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.

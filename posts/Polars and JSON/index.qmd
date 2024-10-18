@@ -3,7 +3,10 @@ title: "JSON Manipulation in Polars"
 author: "Bridger Norman"
 date: "2024-10-010"
 categories: [Python, Polars, JSON ]
+image: 'bear.jpeg'
 ---
+
+<!-- ![](bear.jpeg) -->
 <!-- 
 ```{python}
 import polars as pl

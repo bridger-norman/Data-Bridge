@@ -3,7 +3,7 @@ title: "R Package Development"
 author: "Bridger Norman"
 date: "2024-10-09"
 categories: [R]
-image: "image.jpg"
+image: "brush.jpeg"
 ---
 
 This is a post with executable code.
