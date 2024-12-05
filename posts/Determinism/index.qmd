@@ -6,8 +6,31 @@ categories: [Philosophy ]
 image: 'circle.jpeg'
 ---
 
-This is the first post in a Quarto blog. Welcome!
+
 
 <!-- ![](circle.jpeg) -->
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+# Introduction
+
+Is there a higher truth that all data follows? If so can data science discover it? Can we trust predictions?
+
+I being not only a student of data science, but also of life have often wondered if my choices actually matter. Is my life laid out before me as a series of reactions that I have mistaken as my choices, or can I change the outcome of my life and others with my free will. Studying data at university has allowed me lots of time to think about how we make choices and how we as scientist might predict those decisions. This short blog is a collection of my thoughts on this topic. 
+
+# Defining The Topic:
+
+Determinism: The philosophical idea that all events are predetermined by prior causes, leaving no room for randomness or free will.
+
+Data Science: Wrangling information into meaningful knowledge to solve problems using statistical models, scientific methods, and lots of computing power. 
+
+Predictive Analytics: The practice of using historical data to predict future outcomes, often employing machine learning.
+
+
+Disclaimer, I do not subscribe to determinism as I find the idea a way for people to deflect their poor choices on nature. Though I am ignorant, I am not blind enough to miss the patterns that we can observe in nature that persuade our choices. "Persuades" is my stance on the past guiding the future. We have the ability to choose beyond what we were. Though harder to go against what is predicted for us I believe our free will can make us anomalies. 
+
+
+# Linear Regression
+
+# Machine Learning and Artificial Intelligence
+
+Algorithms: Machine learning models, like regression or decision trees, follow specific rules during training.
+Automation Workflows: Once a model is deployed, it processes inputs and produces outputs in a repeatable manner.

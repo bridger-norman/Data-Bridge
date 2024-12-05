@@ -1,0 +1,84 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"JSON Manipulation in Polars\"\n",
+        "author: \"Bridger Norman\"\n",
+        "date: \"2024-10-010\"\n",
+        "categories: [Python, Polars, JSON ]\n",
+        "image: 'bear.jpeg'\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "<!-- ![](bear.jpeg) -->\n",
+        "\n",
+        "\n",
+        "The other day I was tasked with manipulating a JSON formatted data column in a csv. I need to access some information that was deeply embedding into the daunting JSON format. I turned to my favorite python wrangling tool polars and began learning. I have recorded what I learned here for future reference and to help those you may be tasked with a similar issue.  \n",
+        "\n",
+        "decode the json column with `str.json_decode()` this converts the text to a struct which in polars is practically json\n"
+      ],
+      "id": "df6fd35a"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "struct_df = orders.select('json').with_columns(pl.col('json').str.json_decode().alias(\"json\"))"
+      ],
+      "id": "ba6fde46",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "next if the list has {} around it use `.unnest()` to make the first layer of the json the columns \n",
+        "note: the data type will look something like this `struct[22]`\n"
+      ],
+      "id": "d3047bbd"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "(struct_df.select('json')\n",
+        " .unnest('json')\n",
+        " .select('items')\n",
+        " .explode('items')\n",
+        " .unnest('items')\n",
+        " .select('product')\n",
+        " .unnest('product'))"
+      ],
+      "id": "7b339d13",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "next if the list has [] around it use `.explode()` to remove the items out of the list. \n",
+        "note: the data type will look something like this `list[struct[11]]`\n",
+        "\n",
+        "use the polars `.select()` function in between the `.unnest()` functions so that the data knows how to get wider. This works exactly like a SQL select \n"
+      ],
+      "id": "9c40554c"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/bridgernorman/Downloads/Semester 10 /Senior Project/Data Bridge/.venv/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
